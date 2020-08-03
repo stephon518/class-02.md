@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+# class-02.md
 
-You can use the [editor on GitHub](https://github.com/stephon518/class-02.md/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+**Basics of HTML, CSS & JS**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**HTML**
 
-### Markdown
+HTML elements are used to describe the structure of the page (e.g. headings, subheadings, paragraphs).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+X They also provide semantic information (e.g. where emphasis should be placed, the definition of any acronyms used, when given text is a quotation).
 
-```markdown
-Syntax highlighted code block
+**CSS**
 
-# Header 1
-## Header 2
-### Header 3
+CSS treats each HTML element as if it appears inside its own box and uses rules to indicate how that element should look.
 
-- Bulleted
-- List
+-Rules are made up of selectors (that specify the elements the rule applies to) and declarations (that indicate what these elements should look like).
 
-1. Numbered
-2. List
+-Different types of selectors allow you to target your rules at different elements.
 
-**Bold** and _Italic_ and `Code` text
+-Declarations are made up of two parts: the properties of the element that you want to change, and the values of those properties. For example, the font-family property sets the choice of font, and the value arial specifies Arial as the preferred typeface.
 
-[Link](url) and ![Image](src)
-```
+-CSS rules usually appear in a separate document, although they may appear within an HTML page.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+**Java Script** 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/stephon518/class-02.md/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+A script is made up of a series of statements. Each statement is like a step in a recipe.
 
-### Support or Contact
+Scripts contain very precise instructions. For example, you might specify that a value must be remembered before creating a calculation using that value.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Variables are used to temporarily store pieces of information used in the script.
+
+Arrays are special types of variables that store more than one piece of related information.
+
+JavaScript distinguishes between numbers (0-9), strings (text), and Boolean values (true or false).
+
+Expressions evaluate into a single value. Expressions rely on operators to calculate a value.
+
+**Statements**
+
+Statement- A scripts a series of instructions that a computer can follow. Each direction or step is a statement. Statements should end in a semicolon(;) Each Statement should start on a new line and stops in a semicolon (;), and it tells JavaScript when a step is over. Statements can be organized into Code blocks {}, which are not followed by a semicolon.
+
+Example of a Statement
+
+var today = newDate
+Always write comments in your code to explain what your system does. Comments make your code easier to read and understand to others who read it.
+
